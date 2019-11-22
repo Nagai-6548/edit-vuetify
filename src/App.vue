@@ -4,19 +4,19 @@
       Vuetify お試し
     </v-app-bar>
     <v-content>
-      <HelloWorld/>
+      <FixedTable/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import FixedTable from './components/FixedTable';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    FixedTable,
   },
 
   data: () => ({
@@ -24,3 +24,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+#app {
+  height: 100%;
+}
+</style>
